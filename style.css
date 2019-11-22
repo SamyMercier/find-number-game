@@ -1,0 +1,133 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Calistoga', cursive;
+    text-align: center;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background: #ff6a07;
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 1px 1px black;
+    margin-bottom: 50px;
+}
+
+footer {
+    clear: both;
+    width: 100%;
+}
+
+h1{
+    margin:auto;
+    color: white;
+    text-shadow:1px 1px 1px black;
+}
+#button-start{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    box-shadow: 1px 1px 1px black;
+    background: #ff6a07;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    margin:auto ;
+    width: 200px;
+
+}
+#button-start:hover{
+    cursor: pointer;
+    background: #ff5205;
+}
+
+#champ1{
+    margin-top: 50px;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    display: none;
+}
+#entry-label{
+    text-decoration: underline;
+    display: block;
+}
+
+#button-validate{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    box-shadow: 1px 1px 1px black;
+    background: #ff6a07;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    margin:auto ;
+    width: 200px;
+
+}
+#button-validate:hover{
+    cursor: pointer;
+    background: #ff5205;
+}
+#entry{
+    width: 200px;
+    font-family: 'Calistoga', cursive;
+    border:none;
+    font-size: 20px;
+    margin: 20px 0;
+    text-align: center;
+}
+#playingarea{
+    text-align: center;
+}
+#indicator{
+    font-size: 20px;
+}
+
+ul{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    display: block;
+    margin: 20px;
+}
+
+#button-replay{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    box-shadow: 1px 1px 1px black;
+    background: #ff6a07;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    display: none;
+    width: 200px;
+    margin: auto;
+}
+#button-replay:hover{
+    cursor: pointer;
+    background: #ff5205;
+}
+#texte{
+    display: none;
+    text-decoration: underline;
+}
+
+/*--------------------------------------*/
+
+
+/*---------------------------------------*/
+/*Media query for smartphone*/
+@media (max-width: 812px) {
+
+}
+
+/* Media query for pads*/
+@media (max-width: 1338px) {
+
+}
